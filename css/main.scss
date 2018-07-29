@@ -1,0 +1,32 @@
+---
+# We'll never go out of style
+---
+
+// Pretty glow from the bottom of the page
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  overflow: hidden;
+}
+
+body {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+// Make the stars happen
+@import 'starry';
+
+
+h1, h2, h3, h4, h5{
+    font-weight: 300;
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+    margin:0px;
+}

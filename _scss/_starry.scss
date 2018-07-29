@@ -1,10 +1,7 @@
----
-# Pretty stars
----
 // Configuration
 
 $animation-time: 350s; // How long it takes for the stars to move all the way
-$star-size: 2px; // How big the biggest stars are
+$star-size: 3px; // How big the biggest stars are
 
 // Modified from https://codepen.io/saransh/pen/BKJun
 
@@ -23,11 +20,6 @@ $shadows-small: multiple-box-shadow(700);
 $shadows-medium: multiple-box-shadow(200);
 $shadows-big: multiple-box-shadow(100);
 
-html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  overflow: hidden;
-}
 
 // Create animations times for each starfield
 $atime1: 1 * $animation-time;
@@ -90,27 +82,6 @@ $ssize3: $star-size / 1;
     height: $ssize3;
     background: transparent;
     box-shadow: $shadows-big;
-  }
-}
-
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
-
-  span {
-    background: -webkit-linear-gradient(white, #38495a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 }
 
