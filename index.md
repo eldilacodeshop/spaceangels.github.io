@@ -2,5 +2,5 @@
 layout: default
 title: Home
 ---
-# Eldila
-## They're space angels
+
+This is the stuff.
